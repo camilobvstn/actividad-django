@@ -1,0 +1,41 @@
+.tituloprod{
+    background-color: rgb(190, 190, 190);
+    font-size: 100px;
+    margin-top: 20px;
+}
+
+.tituloimg{
+    font-size: 60px;
+    margin: 0px;
+}
+
+.cuadroprod{
+    display:inline-block;
+}
+#prods {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-around; /* Espacia los elementos uniformemente */
+    align-items: center; /* Alinea los elementos al centro verticalmente */
+    gap: 10px; /* Añade espacio entre los elementos */
+}
+
+.cuadroprod {
+    text-align: center; /* Centra el contenido de cada cuadro */
+}
+
+.imagenes {
+    height: 300px;
+}
+#id{
+    display: block;
+    background-color: aqua;
+}
+#volver{
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(33, 207, 91);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
